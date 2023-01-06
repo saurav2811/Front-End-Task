@@ -40,7 +40,7 @@ function App() {
             <button className="button-17" key={idx} onClick={() => dispatch(showUser(user.id))}>{user.id}</button>
           )
         }
-
+      
     </div>
   );
 }
